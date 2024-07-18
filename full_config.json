@@ -1,0 +1,13 @@
+{
+    "ffmpeg_path": "ffmpeg",
+    "cutting": {
+        "duration": 10,
+        "output_path": "./output/",
+        "input": "./demo.mp4"
+    },
+    "merge": {
+        "extname": "mp4",
+        "input_path": "./output/",
+        "output_path": "./output2/"
+    }
+}
